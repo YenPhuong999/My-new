@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tạo form đơn giản </title>
+    <link rel="stylesheet" href="dkhv.css"/>
+</head>
+<body>
+    <form action="./action_taogiaodien.html" method="get">
+        <div id="đkhv">
+            <h2 style="color: blue;">ĐĂNG KÝ HỌC VIÊN</h2>
+            <table >
+                <tr>
+                    <th><td style="color: blue"> Họ và tên </td></th>
+                    <th> <td> <input type="text" name="hovaten" size="25"> </td></th>
+                </tr>
+                <tr>
+                    <th><td style="color: blue">Ngày sinh</td></th>
+                    <th><td><input type="text" name="ngaysinh" size="20"></td></th>
+                </tr>
+                <tr>
+                    <th><td style="color: blue">Giới tính</td></th>
+                   <td><input type="radio" name="gender">Nam</td>
+                    <td><input type="radio" name="gender">Nữ</td>
+                </tr>
+                <tr>
+                    <th><td style="color: blue">Địa chỉ</td></th>
+                    <th><td ><input type="text" size="30px" >  </td></th>
+                </tr>
+                <tr>
+                    <th><td style="color: blue">Lớp</td></th>
+                    <th><td><select> <option value=" ">-Chọn Lớp-</option> <option>A</option> <option>B</option> <option>C</option></select></td></th>
+                </tr>
+                <tr>
+                    <th><td style="color: blue">Email</td></th>
+                    <th><td><input type="text" name ="email" size ="23"></td></th>
+                </tr>
+                <tr>
+                    <th><td style="color: blue">Điện thoại</td> </th>
+                    <th><td><input type="text" name ="đt" size ="23"></td></th>
+                    <tr>
+                        <th><td></td></th>
+                        <td> </td><td><input type = "Submit"></td> 
+                        <th><td> <input type = "reset"></td>
+                        
+                    </tr>
+                </tr>
+            </table>
+        </div>
+    </form>

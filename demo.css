@@ -1,0 +1,19 @@
+html{
+    background :darkturquoise;
+    font-size: larger;
+    font-family : "Times New Roman", Times, serif;
+    
+}
+#body{
+    background-color: beige;
+}
+h2{
+    background-color:lightsalmon;
+    text-align: center;
+    
+}
+.nhom{
+    text-align:center
+}
+
+    
